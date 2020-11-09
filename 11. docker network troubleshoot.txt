@@ -1,0 +1,2 @@
+nicolaka/netshoot troubleshoots containers.
+run this image in interactive mode and troubleshoot

@@ -1,0 +1,1 @@
+docker inspect (image_id)

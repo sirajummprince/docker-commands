@@ -1,0 +1,1 @@
+docker build --pull --rm -f "app\Dockerfile" -t parcelkoi:latest "app"

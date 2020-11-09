@@ -1,0 +1,2 @@
+docker run --name (user_given_name) (docker_image) --net (network_name) -it
+N.B. it=interactive

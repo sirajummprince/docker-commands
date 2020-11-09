@@ -1,0 +1,3 @@
+docker run --name (user given name) --net (network name) -p(pc port):(inside docker container port) -v (volume name):(location_inside_the_container) (image)
+example: docker run --name mongodb --net bridge -p 27017:27017 -v mongovol:/data/db mongo
+for elasticsearch: docker run --name elasticsearch --net bridge -p 9200:9200 -v esvol:/usr/share/elasticsearch/data -e "discovery.type=single-node" elasticsearch:7.9.3

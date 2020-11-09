@@ -1,0 +1,2 @@
+docker run --name (user given name) -d --net (network name) -p(pc port):(inside docker container port) -v (volume name):(location_inside_the_container) (image)
+N.B. -d=detach
